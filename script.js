@@ -46,3 +46,14 @@ function loadCalendly() {
   link.href = "https://assets.calendly.com/assets/external/widget.css";
   document.head.appendChild(link);
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.querySelector(".mobile-toggle");
+  const nav = document.querySelector(".nav-desktop");
+
+  if (!toggle || !nav) return;
+
+  toggle.addEventListener("click", function () {
+    nav.classList.toggle("open");
+  });
+});

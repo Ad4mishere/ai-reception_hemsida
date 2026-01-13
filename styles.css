@@ -364,6 +364,7 @@ body {
 .problem-icon.yellow { background: #facc15; }
 .problem-icon.purple { background: #7c3aed; }
 .problem-icon.blue   { background: #2563eb; }
+.problem-icon.green { background: #22c55e;}
 
 
 /* ================================
@@ -1324,4 +1325,24 @@ body {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+
+@media (max-width: 1024px) {
+  .nav-desktop {
+    display: none;
+    position: absolute;
+    top: 112px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 1.5rem;
+    flex-direction: column;
+    gap: 1.25rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+
+  .nav-desktop.open {
+    display: flex;
+  }
 }
