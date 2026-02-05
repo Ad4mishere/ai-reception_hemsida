@@ -1441,3 +1441,6 @@ body {
 .footer-contact a:hover {
   text-decoration: underline;
 }
+.site-footer .footer-logo {
+  filter: brightness(0) invert(1);
+}
