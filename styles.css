@@ -1435,3 +1435,9 @@ body {
   }
 }
 
+.footer-contact a {
+  color: #ffffff;
+}
+.footer-contact a:hover {
+  text-decoration: underline;
+}
