@@ -1446,5 +1446,99 @@ body {
 }
 
 
+/* =========================
+   WHY AI – SWEDEN PAGE
+========================= */
+
+.why-ai-page {
+  background: #ffffff;
+}
+
+.container.narrow {
+  max-width: 760px;
+}
+
+/* HERO */
+.why-hero {
+  padding: 6rem 0 4rem;
+}
+
+.why-hero h1 {
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.lead {
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+/* SECTIONS */
+.why-section {
+  padding: 4.5rem 0;
+}
+
+.why-section.alt {
+  background: #f9fafb;
+}
+
+.why-section h2 {
+  margin-bottom: 1.25rem;
+}
+
+.bullet-list {
+  margin: 1.5rem 0;
+  padding-left: 1.2rem;
+}
+
+.bullet-list li {
+  margin-bottom: 0.5rem;
+}
+
+.emphasis {
+  font-weight: 600;
+}
+
+/* SUMMARY */
+.why-summary {
+  padding: 5rem 0;
+  background: #f3f4f6;
+}
+
+.check-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.check-list li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.8rem;
+  position: relative;
+}
+
+.check-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.final-note {
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+/* CTA */
+.why-cta {
+  padding: 5rem 0;
+}
 
 
